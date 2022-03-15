@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="images/LogoForTitle.jpg" type="image/icon type">
+  <title>APPAREL - Online sopping site for clothing, mobile and groceries and many more</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="navBar.css">
+<link rel="stylesheet" href="bknav.css">
+<link rel="stylesheet" href="tooltip.css">
+<link rel="stylesheet" href="searchbar.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+  
+  <div class="navbar2">
+    <a href="index.html" id="tooltip"><img src="images/apparel2.png" width="90px" height="20px" ><span class="tooltiptext">Apparel</span></a>
+    <a href="sell.html">Sell on Apparel</a>
+    <input type="text" placeholder="Search..">
+    <a href="offers.html">Offer Zone</a>
+    <a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a>
+
+    <a class="slogan"><b>Shopping made easy</b></a>
+    <a class="slogandp"><img src="images/LogoForTitle.jpg" width="30px" height="30px" ></a>
+    
+    </div>  
+  </div>
+ 
+    
+    
+  </div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about_us.html">About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Categories 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Home</a>
+      <a href="#">Women's clothing</a>
+      <a href="#">Men's Clothing</a>
+      <a href="#">Mobiles</a>
+      <a href="#">Mobiles</a>
+      <a href="#">Appliances</a>
+      <a href="#">Furniture</a>
+      <a href="#">Grocery</a>
+    </div>
+  </div> 
+  <a href="register.html">Registration</a>
+  <a href="services.html">Services</a>
+  <a href="order.html">Order Now</a>
+  <button value="Sign-Up" id="Sign-upBTN">Sign-Up</button>
+  <button value="Sign-In" id="Sign-inBTN">Sign-In</button>
+  <a href="profile.html" id="user_name">Hello, <b>Sign-in </b><i class="fa fa-caret-down"></i></a>
+</div>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+  <div id="close-login-btn" class="fas fa-times"></div>
+
+  <form action="">
+      <h3>sign in</h3>
+      <span>Username</span>
+      <input type="email" name="" class="box" placeholder="enter your email" id="">
+      <span>Password</span>
+      <input type="password" name="" class="box" placeholder="enter your password" id="">
+      <div class="checkbox">
+          <input type="checkbox" name="" id="remember-me">
+          <label for="remember-me"> Remember me</label>
+      </div>
+      <input type="submit" value="sign in" class="btn">
+      <p>Forget password ? <a href="#">Click here</a></p>
+      <p>Don't have an account ? <a href="#">Create one</a></p>
+  </form>
+
+</div>
+
+<script>
+  
+let loginForm = document.querySelector('.login-form-container');
+
+document.querySelector('#Sign-inBTN').onclick = () =>{
+  loginForm.classList.toggle('active');
+}
+
+document.querySelector('#close-login-btn').onclick = () =>{
+  loginForm.classList.remove('active');
+}
+</script>
+
+<div class="header2">
+  <img src="images/logoapp.png" />
+</div>
+<h3 id="fashion">Fashion, Clothing & Shopping Store</h3>
+
+
+
+
+
+<br>
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>our locations</h3>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+      </div>
+
+      <div class="box">
+          <h3>extra links</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+          <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+          <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> apparel@gmail.com </a>
+          <img src="image/worldmap.png" class="map" alt="">
+      </div>
+      
+  </div>
+
+  <div class="share">
+      <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+      <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+      <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+      <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+      <a href="#"> <i class="fab fa-pinterest"aria-hidden="true"></i></a>
+  </div>
+
+  <div class="credit"> created by <span>Priyanka More</span> | &COPY; 2022 Apparel.in </div>
+
+</section>
+
+<!-- footer section ends -->
+</body>
+</html>

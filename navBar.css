@@ -1,0 +1,191 @@
+* {box-sizing: border-box}
+body {
+  font-family: 'Poppins', sans-serif;
+
+    font-size: 15px; 
+    display: block;
+    margin: 0;
+    background-color: white;
+  }
+  .header{
+    text-align: center;
+    font-size: 20px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #fashion{
+    -webkit-text-stroke: 1px rgb(7, 7, 7);
+   font-family: arial; color: rgb(220, 212, 230);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 0 rgb(12, 12, 12);
+    top: 0;
+    
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 14px;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+
+  }
+ 
+  .navbar a:active {background-color: #6a77eb;}  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .navbar a:hover
+  {
+    background-color: #f0ecec;
+    color: #4141f0
+  }
+   .dropdown:hover .dropbtn
+  {
+    background-color: #f0ecec;
+    color: #4141f0
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 14px;  
+    border: none;
+    outline: none;
+    color: rgb(12, 12, 12);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+    
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ #Sign-upBTN{
+ 
+    background-color: rgb(243, 153, 50);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+  
+    float: right;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 9px 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+  }
+  #Sign-inBTN{
+    background-color: rgb(243, 153, 50);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    color: rgb(252, 247, 247);
+    text-align: center;
+    padding: 9px 35px;
+    margin-top: 5px;
+    margin-bottom: 5px; margin-right: 5px;
+    text-decoration: none;
+
+  }
+  #user_name{
+    
+    border: none;
+    float: right;
+    font-size: 14px;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 9px 35px;
+    margin-top: 5px;
+    margin-bottom: 5px; margin-right: 5px;
+    text-decoration: none;
+  }
+  
+
+
+  .wrapper{
+    background: #456173;
+    display: flex;
+    justify-content: center;
+  }
+  .card_image_section{
+    background: #DBD0BC;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    display: grid;
+    grid-gap: 1rem;
+    grid-auto-flow: column;
+    grid-auto-columns: calc(50% - 1rem);
+    min-height: 20vh;
+  }
+  .cards-content-image {
+    align-items: center;
+    background: #fff;
+    border-radius: 1rem;
+    color: #111;
+    display: flex;
+    font-weight: 900;
+    justify-content: center;
+    font-size:1rem;
+    text-transform: uppercase;
+  }
+  .cards-content-image h3{
+   position:relative;
+   color: rgb(95, 121, 240);
+   font-size: 20px;
+   padding-left: 20%;
+  }
+  .cards-content-image img{
+    width: 20%;
+  }
+  .cards-content-image:first-child {
+    margin-left: 2%;
+  }
+  .cards-content-image:last-child {
+    margin-right: 2%;
+  }

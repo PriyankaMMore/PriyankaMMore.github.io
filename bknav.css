@@ -1,0 +1,270 @@
+* {box-sizing: border-box;
+  transition:all .2s linear;
+  transition:width none;}
+body {
+  font-family: 'Poppins', sans-serif;
+
+    font-size: 15px; 
+    display: block;
+    margin: 0;
+  }
+  
+  .header2{
+    text-align: center;
+    font-size: 20px;
+    background-color: #a4d0f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+  }
+  .navbar2 {
+    overflow: hidden;
+    background-color: #4141f0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 4px 4px;cursor: pointer;
+  
+  }
+  
+  .navbar2 a {
+    float: left;
+    font-size: 14px;
+    color: rgb(255, 254, 254);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+    
+  
+    
+    
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --green:#ffe11b;
+    --dark-color:#392191;
+    --black:rgb(238, 231, 231);
+    --light-color:rgb(255, 248, 248);
+    --border:.1rem solid rgba(0,0,0,.1);
+    --border-white:.1rem solid rgba(247, 242, 242, 0.1);
+    --border-hover:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+  
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+  
+}
+
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap:1.5rem;
+  margin-top: 2%;
+  background-color: #172337;color: rgb(255, 255, 255);
+  padding-left: 5%;
+}
+
+.footer .box-container .box h3{
+  font-size: 14px;
+  color:#99999c;
+  padding:1rem 0;
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 12px;
+  color:var(--light-color);
+  padding:1rem 0;
+  margin-left:20px;
+  
+}
+
+.footer .box-container .box a i{
+  color:#ffe11b;
+  padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i{
+  padding-right: 2rem;
+}
+
+.footer .box-container .box .map{
+  width:50%;
+}
+
+.footer .share{
+  padding:1rem 0;
+  text-align: center;
+  
+  background-color:#172337 ;
+  border-top: var(--border-white);
+  
+}
+
+.footer .share a i{
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  font-size: 2rem;
+  color:#172337;
+  background:lightgray;
+  margin:0 .3rem;
+  border-radius: 50%; 
+  
+}
+
+.footer .share a i:hover{
+  background:#ffe11b;
+  color: #172337;
+}
+
+.footer .credit{
+  
+  
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color:rgb(255, 249, 249);
+  text-align: center;
+  background-color:#172337 ;
+}
+
+.footer .credit span{
+  color:#ffe11b;
+}
+
+
+.login-form-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:rgba(255,255,255,.9);
+  position:fixed;
+  top:0; right:-105%;
+  z-index: 10000;
+  height:100%;
+  width:100%;
+  
+}
+
+.login-form-container.active{
+  right:0;
+}
+
+.login-form-container form{
+  background:#fff;
+  border:var(--border);
+  width:40rem;
+  padding:2rem;
+  box-shadow: var(--box-shadow);
+  border-radius: .5rem;
+  margin:2rem;
+  
+}
+
+.login-form-container form h3{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color:black;
+  text-align: center;
+  
+}
+
+.login-form-container form span{
+  display: block;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.login-form-container form .box{
+  width: 100%;
+  margin:.7rem 0;
+  font-size: 1.6rem;
+  border:var(--border);
+  border-radius: .5rem;
+  padding:1rem 1.2rem;
+  color:var(--black);
+  text-transform: none;
+}
+
+.login-form-container form .checkbox{
+  display:flex;
+  align-items: center;
+  gap:.5rem;
+  padding:1rem 0;
+}
+
+.login-form-container form .checkbox label{
+  font-size: 1.5rem;
+  color:black;
+  cursor: pointer;
+}
+
+.login-form-container form .btn{
+  text-align: center;
+  width:100%;
+  margin:1.5rem 0;
+  margin-top: 1rem;
+    display:inline-block;
+    padding:.9rem 3rem;
+    border-radius: .5rem;
+
+    color:#4141f0;
+    background:#dddde2;    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.login-form-container form p{
+  padding-top: .8rem;
+  color:black;
+  font-size: 1.5rem;
+}
+
+.login-form-container form p a{
+  color:#4141f0;
+  text-decoration: underline;
+}
+
+.login-form-container #close-login-btn{
+  position: absolute;
+  top:1.5rem; right:2.5rem;
+  font-size: 5rem;
+  color:black;
+  cursor: pointer;
+}
+
+#tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  
+}
+
+#tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(242, 253, 176);
+  border-radius: 5px;
+  color: rgb(20, 20, 20);
+  text-align: center;
+  top:60%;
+  left:0%;
+  padding: 2px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index:2;
+}
+
+#tooltip:hover .tooltiptext {
+  visibility: visible;
+  
+}
